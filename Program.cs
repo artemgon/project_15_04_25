@@ -30,7 +30,7 @@ namespace project_15_04_25
             _thread.Start();
         }
 
-        void WorkerMethod(int start, int end)
+        public static void WorkerMethod(int start, int end)
         {
             for (int i = start; i <= end; i++)
             {
